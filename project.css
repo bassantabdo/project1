@@ -1,0 +1,1194 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height:5500px;
+    
+ }
+.header
+{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    background-color:rgb(59, 58, 58)
+    
+}
+
+.logo
+{
+    float: left;
+    width: 120px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+ul
+{
+    font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+    list-style: none;
+    float: right;
+    margin-right: 120px;
+    margin-top: 20px;
+
+}
+
+.father .item
+{
+    display: inline-block;
+    margin-right: 15;
+    color:azure;
+    font-size: 20px;
+    
+}
+
+.father .item1
+{
+    color: orangered;
+}
+
+
+.background
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.overlay 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+    
+.content 
+{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.content h1
+{
+    font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.content .three
+{
+    color:orangered;
+}
+.content p
+{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.button
+{
+font-family: 'Lobster', cursive;
+width: 150px;
+height: 50px;
+background-color: orangered;
+color: aliceblue;
+border: none;
+border-radius: 3px;
+font-size: 20px;
+}
+
+
+
+.parnt
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(59, 58, 58);
+    position: relative;
+}
+.i1
+{
+    color: orangered;
+    font-size: 30pX;
+    position: absolute;
+    top: 50px;
+    left: 380px;
+
+}
+h1
+{
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-align: center;
+    font-size: 37px;
+    padding-top: 40px;
+   
+}
+.aa
+{
+    width: 90px;
+    height: 2px;
+    background-color: orangered;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.i2
+{
+    color: orangered;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left:15px;
+}
+h2
+{
+color: white;
+text-align: center;
+margin-top: 20px;
+font-family: 'Lobster', cursive;
+}
+.a
+{
+    width: 270px;
+    height: 190px;
+    background-color: rgb(23, 23, 23);
+    float: left;
+    margin-top: 110px;
+    border-radius: 4px;
+    margin-left: 130px;
+   border-style: inset;
+    position: relative;
+}
+.ol
+{
+    position: absolute;
+  top: 0;
+   left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: 3s;
+
+}
+
+
+.a::after
+{
+    position: absolute;
+    content: "";
+   bottom: 0;
+    left: 0;
+    background-color: orangered;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.a:hover::after 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+
+
+/* before */
+
+
+.a::before
+{
+    position: absolute;
+    content: "";
+   top: 0;
+   right: 0;
+    background-color: white;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.a:hover::before 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+.b::after
+{
+    position: absolute;
+    content: "";
+   bottom: 0;
+    left: 0;
+    background-color: orangered;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.b:hover::after 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+
+
+/* before */
+
+
+.b::before
+{
+    position: absolute;
+    content: "";
+   top: 0;
+   right: 0;
+    background-color: white;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.b:hover::before 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+.c::after
+{
+    position: absolute;
+    content: "";
+   bottom: 0;
+    left: 0;
+    background-color: orangered;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.c:hover::after 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+
+
+/* before */
+
+
+.c::before
+{
+    position: absolute;
+    content: "";
+   top: 0;
+   right: 0;
+    background-color: white;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.c:hover::before 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+.b
+{
+    width: 270px;
+    height: 190px;
+    background-color: rgb(23, 23, 23);
+    float: left;
+    margin: 110px 60px;
+    border-radius: 4px;
+    position: relative;
+    border-style: inset;
+}
+.c
+{
+    width: 270px;
+    height: 190px;
+    background-color: rgb(23, 23, 23);
+    float: left;
+    margin-top: 110px;
+    border-radius: 4px;
+    position: relative;
+    border-style: inset;
+}
+.imgs
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+
+}
+.h
+{
+    padding-top: 80px;
+}
+img
+{
+    height: 180px;
+   margin-top: 30px;
+   margin-left: 180px;
+}
+.i3
+{
+    color: orangered;
+    font-size: 30pX;
+    position: absolute;
+    top:50px;
+    left: 400px;
+}
+.ds
+{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.rm
+{
+    color: orangered;
+   position: absolute; 
+   left: 190px; 
+    top: 150px;
+
+} 
+.offer
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(59, 58, 58);
+    
+   
+}
+
+.i4
+{
+    color: orangered;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+.a1
+{
+    width: 310px;
+    height: 175px;
+    background-color:rgb(23, 23, 23);
+    float: left;
+    margin-top: 50px;
+    margin-left:75px ;
+    border-style: inset;
+    position: relative;
+   
+   
+}
+
+
+.b1
+{
+
+    width: 310px;
+    height: 175px;
+    background-color: rgb(23, 23, 23);
+    float: left;
+   margin: 50px 60px 0px 60px;
+   border-style: inset;
+    position: relative;
+}
+.c1
+{
+    width: 310px;
+    height: 175px;
+    background-color: rgb(23, 23, 23);
+    float: left;
+    margin-top: 50px;
+    border-style: inset;
+    position: relative;
+}
+.d1
+{
+    width: 310px;
+    height: 175px;
+    background-color: rgb(23, 23, 23);
+    float: left;
+    margin-left: 75px;
+    border-style: inset;
+    position: relative;
+    
+}
+.e1
+{
+    width: 310px;
+    height: 175px;
+    background-color: rgb(23, 23, 23);
+    float: left;
+   margin: 0px 60px;
+   border-style: inset;
+    position: relative;
+}
+.f1
+{
+    width: 310px;
+    height: 175px;
+    background-color: rgb(23, 23, 23);
+    float: left;
+    border-style: inset;
+    position: relative;
+    
+}
+.why-we
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+.h-1
+{
+    padding-right: 800px;
+    padding-top: 70px;
+}
+.i5
+{
+    color: orangered;
+    font-size: 30px;
+    position: absolute; 
+    top: 80px;
+    left: 360px;
+
+}
+.bb
+{
+    width:70px;
+    height: 2px;
+    background-color: orangered;
+    margin-left: 75px;
+}
+
+.why-we-image
+{
+    width: 300px;
+    height: 370;
+    position: absolute;
+    left: 600px;
+    top:65px;
+}
+.img-overlay
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: 3s;
+}
+.div-image:hover .team-overlay
+{
+    opacity: 0.7;
+    visibility: visible;
+}
+
+
+.div-image::after
+{
+    position: absolute;
+    content: "";
+    top: 0;
+   left: 0;
+    background-color: white;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.div-image:hover::after 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+
+
+.div-image::before
+{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    background-color: rgb(71, 71, 71);
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.div-image:hover::before 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+.i6
+{
+    color: orangered;
+    font-size: 35px;
+    position: absolute;  
+    top: 470px;
+    left: 920px;
+}
+.text
+{
+    color: white;
+    padding-left: 77px;
+    padding-top: 60px;
+}
+.sells
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    background-image: url(../OIP.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+.sells-overlay
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.i7
+{
+    color: orangered;
+    font-size: 50px;
+    position: absolute;  
+    top: 31%;
+    left: 18%;
+}
+.i8
+{
+    color: orangered;
+    font-size: 50px;
+    position: absolute;  
+    top: 31%;
+    left: 35%;
+}
+.i9
+{
+    color: orangered;
+    font-size: 50px;
+    position: absolute;  
+    top: 32%;
+    left: 55%;
+}
+.i10
+{
+    color: orangered;
+    font-size: 50px;
+    position: absolute;  
+    top: 32%;
+    left: 75%;
+}
+.location
+{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 17%;
+}
+.star
+{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.files
+{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+.win
+{
+    
+    font-family: 'Lobster', cursive;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    font-size: 30px;
+}
+.l
+{
+    color: white;
+    position: absolute;
+    top: 52%;
+    left: 14%;
+
+}
+.s
+{
+    color: white;
+    position: absolute;
+    top: 52%;
+    left: 32%;
+}
+.f
+{
+    color: white;
+    position: absolute;
+    top: 52%;
+    left: 52%;
+}
+.w
+{
+    color: white;
+    position: absolute;
+    top: 52%;
+    left: 72%;
+}
+.price
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(59, 58, 58);
+    
+}
+.SS
+{
+    width: 250px;
+    height: 350;
+    background-color: white;
+    position: relative;
+    float: left;
+    margin-left: 200px;
+    margin-top: 70px;
+    box-shadow: 1px 1px 7px 9px;
+    border-radius: 2px;
+}
+.SSS
+{
+    width: 250px;
+    height: 350;
+    background-color: white;
+    position: relative;
+    float: left;
+    margin:70px 30px ;
+    box-shadow: 1px 1px 7px 9px;
+    border-radius: 2px;
+}
+.SSSS
+{
+    width: 250px;
+    height: 350;
+    background-color: white;
+    position: relative;
+    float: left;
+    margin-top: 70px;
+    box-shadow: 1px 1px 7px 9px;
+    border-radius: 2px;
+    
+}
+.on
+{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+.circle
+{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+   
+}
+.numb
+{
+    color: black;
+    font-size: 39px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.i11
+{
+    color: black;
+    position: absolute;
+    font-size: 29px;
+    left:106px;
+   top:127px;
+   
+    
+}
+.oon
+{
+    color: black;
+    padding-left: 45px;
+    padding-top: 40px;
+}
+.r
+{
+    width: 215px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.ooon
+{
+    color: black;
+}
+.sell
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    background-image: url(../iStock-638936270-min.jpg);
+   
+    
+}
+
+
+.q
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+    
+  
+   
+}
+ .qq
+ {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    right: 450px;
+}
+.qqq
+{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 270px;
+}
+.qqqq
+{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 770px;
+}   
+.oo
+{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+.ooo
+{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 760px;
+}
+
+.back
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+
+.i12
+{
+    color: orangered;
+    font-size: 35px;
+    position: absolute;  
+    top: 50px;
+    left: 450px;
+}
+.z
+{
+    width: 290px;
+    height:310;
+    background-color: white;
+   position: absolute;
+  left:110px;
+   top: 170px;
+}
+.zz
+{
+    width: 290px;
+    height: 310;
+    background-color: white;
+    position: absolute;
+     top: 170px;
+     left: 460px;
+}
+.zzz
+{
+    width: 290px;
+    height: 310;
+    background-color: white;
+    top: 170px;
+    position: absolute;
+    left: 800px;
+}
+.zx
+{
+    width: 240px;
+    height: 200px;
+    margin-left: 25px;
+}
+.zxx
+{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+.team-overlay
+{
+    width: 10px;
+    height: 50px;
+    background-color: orangered;
+    position: absolute; 
+    top: 0;
+   
+}
+
+
+.z-item:hover .team-overlay
+{
+    opacity: 0.7;
+    visibility: visible;
+}
+
+.team-overlay i 
+{
+    display: block;
+    font-size: 18px;
+}
+
+.team-overlay a 
+{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.team-overlay a i 
+{
+    line-height: 40px;
+}
+
+/* after */
+
+.z::after
+{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: orangered;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.z:hover::after 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+
+
+/* before */
+
+
+.z::before
+{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    background-color: rgb(71, 71, 71);
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.z:hover::before 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+.z-item:hover .team-overlay
+{
+    opacity: 0.7;
+    visibility: visible;
+}
+
+
+
+/* after */
+
+.zzz::after
+{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: orangered;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.zzz:hover::after 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+
+
+/* before */
+
+
+.zzz::before
+{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    background-color: rgb(71, 71, 71);
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.zzz:hover::before 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+.zzz::after
+{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: orangered;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.zzz:hover::after 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+
+
+/* before */
+
+
+.zzz::before
+{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    background-color: rgb(71, 71, 71);
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    transition: 3s;
+}
+
+.zzz:hover::before 
+{
+    height: 100%;
+    opacity: 0.7;
+}
+.bac
+{
+    width: 100%;
+    height: 100vh;
+    background-color:  rgb(59, 58, 58);
+    margin-top:500PX;
+}
+.cc
+{
+    width: 78%;
+    height: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+.ccc
+{
+       width: 200px;
+        height: 250px;
+       right: 650px;
+       position: absolute;
+}
+.ccca
+{
+    
+    width: 200px;
+    height: 250px;
+   top: 0%;
+   left: 190px;
+   position: absolute;
+}
+.cccaa
+{
+    
+    width: 200px;
+    height: 250px;
+    top:0%;
+  left:480px;
+   position: absolute;
+}
+.pp
+{
+    font-family: 'Lobster', cursive;
+    color: black;
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 100px;
+}
+.ppp
+{
+    font-family: 'Lobster', cursive;
+    color: black;
+   position: absolute;
+    padding-top: 300px;
+    padding-left: 650px;
+}
+.pppp
+{
+    font-family: 'Lobster', cursive;
+    color: black;
+   position: absolute;
+    padding-top: 300px;
+    padding-left: 350px;
+}
+.tt
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+.i13
+{
+color: rgb(71, 171, 237);
+position: absolute;
+font-size: 30px;
+padding-left: 1050px;
+padding-top: 441px;
+}
+.i14
+{
+color: rgb(133, 174, 183);
+position: absolute;
+font-size: 30px;
+padding-left: 1000px;
+padding-top: 440px;
+}
+.i15
+{
+color: rgb(63, 80, 232);
+position: absolute;
+font-size: 30px;
+padding-left: 950px;
+padding-top: 440px;
+}
+.i16
+{
+color: rgb(27, 25, 24);
+position: absolute;
+font-size: 30px;
+padding-left: 900px;
+padding-top: 440px;
+}
+.i17
+{
+color: rgb(52, 169, 64);
+position: absolute;
+font-size: 30px;
+padding-left: 850px;
+padding-top: 440px;
+}
+.i18
+{
+color: rgb(25, 24, 23);
+position: absolute;
+font-size: 30px;
+padding-left:800px;
+padding-top: 440px;
+}
