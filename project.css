@@ -123,7 +123,7 @@ font-size: 20px;
     background-color: rgb(59, 58, 58);
     position: relative;
 }
-.i1
+.fa-solid.fa-door-open
 {
     color: orangered;
     font-size: 30pX;
@@ -150,7 +150,7 @@ h1
     margin-top: 10px;
 }
 
-.i2
+.fa-solid.fa-gears
 {
     color: orangered;
     font-size: 25px;
@@ -355,7 +355,7 @@ img
    margin-top: 30px;
    margin-left: 180px;
 }
-.i3
+.fa-solid.fa-briefcase
 {
     color: orangered;
     font-size: 30pX;
@@ -385,7 +385,54 @@ img
     
    
 }
-
+.fa-solid.fa-share
+{
+    color: orangered;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left:15px;
+}
+.fa-solid.fa-wand-magic-sparkles
+{
+    color: orangered;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left:15px;
+}
+.fa-solid.fa-bolt
+{
+    color: orangered;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left:15px;
+}
+.fa-solid.fa-globe
+{
+    color: orangered;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left:15px;
+}
+.fa-solid.fa-chart-simple
+{
+    color: orangered;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left:15px;
+}
+.fa-solid.fa-database
+{
+    color: orangered;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left:15px;
+}
 .i4
 {
     color: orangered;
@@ -473,7 +520,7 @@ img
     padding-right: 800px;
     padding-top: 70px;
 }
-.i5
+.fa-solid.fa-circle-question
 {
     color: orangered;
     font-size: 30px;
@@ -555,7 +602,7 @@ img
     height: 100%;
     opacity: 0.7;
 }
-.i6
+.fa-solid.fa-ellipsis
 {
     color: orangered;
     font-size: 35px;
@@ -589,7 +636,7 @@ img
     left: 0;
     background-color: rgba(0, 0, 0, 0.8);
 }
-.i7
+.fa-solid.fa-location-dot
 {
     color: orangered;
     font-size: 50px;
@@ -597,7 +644,7 @@ img
     top: 31%;
     left: 18%;
 }
-.i8
+.fa-solid.fa-star
 {
     color: orangered;
     font-size: 50px;
@@ -605,7 +652,7 @@ img
     top: 31%;
     left: 35%;
 }
-.i9
+.fa-solid.fa-layer-group
 {
     color: orangered;
     font-size: 50px;
@@ -613,7 +660,7 @@ img
     top: 32%;
     left: 55%;
 }
-.i10
+.fa-solid.fa-trophy
 {
     color: orangered;
     font-size: 50px;
@@ -753,7 +800,7 @@ img
     padding-left: 35px;
     padding-top: 20px;
 }
-.i11
+.fa-solid.fa-s
 {
     color: black;
     position: absolute;
@@ -852,7 +899,7 @@ img
 }
 
 
-.i12
+.fa-solid.fa-people-group
 {
     color: orangered;
     font-size: 35px;
@@ -1144,49 +1191,49 @@ img
     background-color: black;
     position: relative;
 }
-.i13
+.fa-brands.fa-square-twitter
 {
-color: rgb(71, 171, 237);
+color: orangered;
 position: absolute;
 font-size: 30px;
 padding-left: 1050px;
 padding-top: 441px;
 }
-.i14
+.fa-brands.fa-google-play
 {
-color: rgb(133, 174, 183);
+color: orangered;
 position: absolute;
 font-size: 30px;
 padding-left: 1000px;
 padding-top: 440px;
 }
-.i15
+.fa-solid.fa-shield
 {
-color: rgb(63, 80, 232);
+color: orangered;
 position: absolute;
 font-size: 30px;
 padding-left: 950px;
 padding-top: 440px;
 }
-.i16
+.fa-solid.fa-phone-volume
 {
-color: rgb(27, 25, 24);
+color: orangered;
 position: absolute;
 font-size: 30px;
 padding-left: 900px;
 padding-top: 440px;
 }
-.i17
+.fa-brands.fa-whatsapp
 {
-color: rgb(52, 169, 64);
+color: orangered;
 position: absolute;
 font-size: 30px;
 padding-left: 850px;
 padding-top: 440px;
 }
-.i18
+.fa-solid.fa-pencil
 {
-color: rgb(25, 24, 23);
+color: orangered;
 position: absolute;
 font-size: 30px;
 padding-left:800px;
